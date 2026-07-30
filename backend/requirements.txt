@@ -7,7 +7,7 @@
 # previous "starlette>=1.0.0" here is an impossible constraint: no version
 # satisfies it, so `pip install -r requirements.txt` would fail to resolve
 # outright. Pinned to the actual current release line instead.
-fastapi>=0.135.0
+fastapi>=0.140.7
 starlette>=0.40.0,<1.0.0
 uvicorn[standard]>=0.30.0
 
